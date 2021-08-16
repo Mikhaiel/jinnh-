@@ -1,6 +1,6 @@
 /* Codded by @phaticusthiccy
 
-re-editted by Mikhaiel
+Re-Coded by Mikhaiel
 
 */
 
