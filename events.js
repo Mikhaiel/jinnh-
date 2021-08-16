@@ -10,7 +10,6 @@ var Commands = [];
 
 function addCommand(info, func) {
     // Basit bir fonksiyon, komut eklemek için.
-    
     var types = ['photo', 'image', 'text', 'message'];
 
     var infos = {
