@@ -17,7 +17,7 @@
 */
 
 function successfullMessage(msg) {
-    return "✅ *Jimbrootan*:  ```" + msg + "```"
+    return "☑️ *Jimbrootan*:  ```" + msg + "```"
 }
 function errorMessage(msg) {
     return "🛑 *Jimbrootan*:  ```" + msg + "```"
