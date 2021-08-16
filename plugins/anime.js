@@ -1,4 +1,5 @@
-/*re edited by afnanplk
+/*
+re-edited by Mikhaiel
 */
 
 const Asena = require('../events');
@@ -96,7 +97,7 @@ if (Config.WORKTYPE == 'private') {
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: 'Made by PLK'})
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.JINN})
 
     }));
 }
@@ -190,7 +191,7 @@ else if (Config.WORKTYPE == 'public') {
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.AFN})
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: Config.JINN})
 
     }));
 }
