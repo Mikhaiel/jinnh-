@@ -75,10 +75,10 @@
             "MUST_TEXT": "```Please reply to any message```"
         },
         "heroku": {
-            "RESTART_DESC": "Restart pinky",
-            "RESTART_MSG": "ʀᴇꜱᴛᴀʀᴛɪɴɢ ᴘɪɴᴋʏ",
-            "SHUTDOWN_DESC": "Shutdown pinky",
-            "SHUTDOWN_MSG": "```Shutting down ⛔```",
+            "RESTART_DESC": "Restart jimbrootan",
+            "RESTART_MSG": "ʀᴇsᴛᴀʀᴛɪɴɢ ᴊɪᴍʙʀᴏᴏᴛᴀɴ🩸",
+            "SHUTDOWN_DESC": "Shutdown jimbrootan",
+            "SHUTDOWN_MSG": "𝚂𝚑𝚞𝚝𝚝𝚒𝚗𝚐 𝚍𝚘𝚠𝚗 😖",
             "DYNO_DESC": "Check heroku dyno usage",
             "DYNO_TOTAL": "```Total Quota```",
             "DYNO_USED": "```Quota used```",
@@ -148,7 +148,7 @@
         },
         "profile": {
             "KICKME_DESC": "It kicks you from the group you are using it in.",
-            "KICKME": "```Bye bye! I am going 🤠```",
+            "KICKME": "```lavan poyi 🤣```",
             "PP_DESC": "Makes the profile photo what photo you reply.",
             "NEED_PHOTO": "*Give me a photo!*",
             "PPING": "```Setting profile photo...```",
@@ -463,7 +463,7 @@
             "NOT_FOUND": "*Media Not Found!*"
         },
         "github": {
-            "GİTHUB_DESC": "Collects github information from the given username.\n⌨️ Example: .github afnanplk",
+            "GİTHUB_DESC": "Collects github information from the given username.\n⌨️ Example: .github Mikhaiel",
             "REPLY": "```You Need To Type Any Username!```",
             "NOT": "```User not found!```",
             "FOLLOWERS": "Followers:",
@@ -486,7 +486,7 @@
         },
               "weather": {
             "WEATHER_DESC": "Shows the weather.",
-            "NEED_LOCATION": "* Please write a location!*\n*Example:* ```.weather kozhikode```",
+            "NEED_LOCATION": "* Please write a location!*\n*Example:* ```.weather Pathanamthitta```",
             "LOCATION": "Location",
             "LAT": "Lattitude",
             "LONG": "Longitude",
@@ -496,7 +496,7 @@
             "HUMI": "Humidity",
             "WIND": "Wind Speed",
             "CLOUD": "Cloud",
-            "NOT_FOUND": "```ingane oru sthalam indo..? enthayallum enit kandethaan ayeela. 😖```",
+            "NOT_FOUND": "```ingane oru sthalam indo..? enthayallum enik kandethaan ayeela. 😖```",
             "QUOTE_DESC": "Gives a random quote.",
             "NEED_LOCATIONA": "*Invalid Request*",
             "QUOTE": "Quote:",
