@@ -1,4 +1,4 @@
-# **PINKY V2** TERMS OF USAGE
+# **JIMBROOTAN V-2.0** TERMS OF USAGE
 
 Last Updated: **GMT-3 22/03/2021**
 
