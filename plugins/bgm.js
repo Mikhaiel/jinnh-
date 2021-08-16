@@ -1,6 +1,8 @@
 /* Copyright (C) 2020 Yusuf Usta.
+
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
+
 WhatsAsena - Yusuf Usta
 */
 
@@ -19,13 +21,13 @@ let baseURI = '/apps/' + config.HEROKU.APP_NAME;
     var BGM_off = ''
     if (config.LANG == 'EN') {
         l_dsc = 'turn on and turn of bgm. -bot owner command'
-        BGM_on = 'bgm option turned on!'
-        BGM_off = 'bgm option turned off'
+        BGM_on = '```Bgm option turned on!😉```'
+        BGM_off = '```Bgm option turned off 😑```'
     }
     if (config.LANG == 'ML') {
         l_dsc = 'turn on and turn of bgm. -bot owner command'        
-        BGM_on = 'bgm option turned on'
-        BGM_off = 'bgm option turned off'
+        BGM_on = '```Bgm option turned on 😉```'
+        BGM_off = '```Bgm option turned off 😑```'
     }
     Asena.addCommand({pattern: 'bgm ?(.*)', fromMe: true, desc: l_dsc, usage: '.bgm on / off' }, (async (message, match) => {
         if (match[1] == 'off') {
