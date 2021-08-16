@@ -29,13 +29,13 @@
         },
         "admin": {
             "BAN_DESC": "Ban someone in the group. Reply to message or tag a person to use command.",
-            "IM_NOT_ADMIN": "ꜱᴏʀʀʏ ᴀᴍ ɴᴏᴛ ᴀᴅᴍɪɴ",
-            "BANNED": "ʀᴇᴍᴏᴠᴇᴅ ꜰʀᴏᴍ ɢʀᴏᴜᴘ",
-            "GIVE_ME_USER": "ɢɪᴠᴇ ᴍᴇ ᴀ ᴜꜱᴇʀ",
+            "IM_NOT_ADMIN": "```da manduse njan admin alla !```",
+            "BANNED": "```Mwonu Vanna vazhi vittoo Ok Bie!```",
+            "GIVE_ME_USER": "```arelum mention chey😈!```",
             "ADD_DESC": "Adds someone to the group.",
-            "ADDED": "ᴀᴅᴅᴇᴅ ᴛᴏ ᴛʜᴇ ɢʀᴏᴜᴘ",
-            "ALREADY_PROMOTED": "ʜᴇ ɪꜱ ᴀʟʀᴇᴀᴅʏ ᴀᴅᴍɪɴ ᴏᴏᴘᴢ",
-            "PROMOTED": ", ᴄᴏɴɢʀᴀᴛᴢ ʏᴏᴜ ᴀʀᴇ ᴘʀᴏᴍᴏᴛᴇᴅ",
+            "ADDED": "added to the group!",
+            "ALREADY_PROMOTED": "```Avan admin anu Mowne🙃```",
+            "PROMOTED": "```, admin role was given!```",
             "PROMOTE_DESC": "Makes any person an admin.",
             "DEMOTE_DESC": "Takes the authority of any admin.",
             "ALREADY_NOT_ADMIN": "```How can I make someone admin who is already admin?```",
@@ -207,7 +207,7 @@
         "sticker": {
             "STICKER_DESC": "It converts your replied photo or video to sticker.",
             "NEED_REPLY": "\n*Reply to a photo or video!*\n",
-            "DOWNLOADING": "ᴄʀᴇᴀᴛɪɴɢ ꜱᴛɪᴄᴋᴇʀ"
+            "DOWNLOADING": "```Wait Chey Jeem Boom Bhaa...🧞‍♂️```"
         },
         "system_stats": {
             "ALIVE_DESC": "Does bot work?",
