@@ -227,15 +227,15 @@
             "REPLY": "*Please Respond to User's Message to Report!*"
         },
         "updater": {
-            "UPDATER_DESC": "Checks the update for pinky.",
-            "UPDATE": "*Your pinky is completely up-to-date!*",
-            "NEW_UPDATE": "*New update available for pinky!*\n\n ```use .list for commands``` \n\n *ask support group before updating or your bot might stop working* \n *-if bot stop working you will have to re-deploy* \n\n Updates are:\n\n ",
+            "UPDATER_DESC": "Checks the update.",
+            "UPDATE": "```Jimbrootan 🧞‍♂️ completely up-to-date!```",
+            "NEW_UPDATE": "```New update available for Jimbrootan 🧞‍♂️!```\n\nChanges:\n```",
             "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "Pinky Updating...",
-            "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
-            "UPDATED": "*✅ Successfully Updated!*",
-            "UPDATED_LOCAL": "*✅ Successfully Updated!*",
-            "AFTER_UPDATE": "*💬 Pinky Restarting Automatically!*",
+            "UPDATING": "```Updating...🧞‍```",
+            "INVALID_HEROKU": "*❌ Your Heroku app name or api key wrong!*",
+            "UPDATED": "*✅  Updated!*",
+            "UPDATED_LOCAL": "*✅ Updated!*",
+            "AFTER_UPDATE": "```Jimbrootan 🧞‍♂️ Restarting !```",
             "IN_AF": "*Please check* ```HEROKU_APP_NAME``` *and* ```app name``` *They must be same.*\n*If these two values ​​are the same, please restore* ```HEROKU_API_KEY```\n\n_To access these settings, use Heroku >> App >> Settings >> Reavel Config Vars_\n_To renew your API key, follow these steps, Heroku >> Account >> API Key then replace old api key in config vars._"
         },
         "whois": {
