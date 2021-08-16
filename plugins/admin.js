@@ -1,6 +1,7 @@
-/* Copyright (C) 2020 Yusuf Usta.
-recodded by afnanplk
-PINKY V2
+/* Copyright © 2020 Yusuf Usta.
+
+recodded by Mikhaiel 
+
 */
 
 const {MessageType, GroupSettingChange} = require('@adiwajshing/baileys');
