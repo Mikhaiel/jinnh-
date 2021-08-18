@@ -1,5 +1,5 @@
 /* Codded by @phaticusthiccy
-re edited by afnanplk
+re edited by Mikhaiel
 */
 
 const Asena = require('../events');
@@ -75,7 +75,7 @@ if (Config.WORKTYPE == 'private') {
         
         var respoimage = await axios.get('https://thiccyscarbonapi.herokuapp.com/?code=' + pay + '&theme=' + Theme[i] + '&exportSize=3x&paddingVertical=200px&paddingHorizontal=200px&backgroundColor=rgba(' + rgbafirst + ',' + rgbasecond + ',' + rgbathird + ')&language=' + Language[l], { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, { mimetype: Mimetype.png, caption: Config.AFN})
+        await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, { mimetype: Mimetype.png, caption: Config.JINN})
 
     }));
 }
@@ -142,6 +142,6 @@ else if (Config.WORKTYPE == 'public') {
         
         var respoimage = await axios.get('https://thiccyscarbonapi.herokuapp.com/?code=' + pay + '&theme=' + Theme[i] + '&exportSize=3x&paddingVertical=200px&paddingHorizontal=200px&backgroundColor=rgba(' + rgbafirst + ',' + rgbasecond + ',' + rgbathird + ')&language=' + Language[l], { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, { mimetype: Mimetype.png, caption: Config.AFN})
+        await message.sendMessage(Buffer.from(respoimage.data), MessageType.image, { mimetype: Mimetype.png, caption: Config.JINN})
     }));
 }
