@@ -1,5 +1,5 @@
 /*codded by farhan-dqz
-re-edited by afnanpplk
+re-edited by Mikhaiel
 
 */
 
@@ -12,8 +12,8 @@ Asena.addCommand({ pattern: 'insta ?(.*)', fromMe: false, desc: IG_DESC }, async
     //if(match[1] == '') return
     let { data, type } = await instaGram(match[1], 'ca84f651c0e2d4eb');
     //if(type == undefined) return 
-    if (type === 'image') { await message.sendMessage(data, MessageType.image, { caption: Config.AFN }) }
-    else if (type === 'video') { await message.sendMessage(data, MessageType.video, { caption: Config.AFN }) }
+    if (type === 'image') { await message.sendMessage(data, MessageType.image, { caption: Config.JINN }) }
+    else if (type === 'video') { await message.sendMessage(data, MessageType.video, { caption: Config.JINN }) }
 });
 //const axios = require('axios')
 async function instaGram(url, key){
