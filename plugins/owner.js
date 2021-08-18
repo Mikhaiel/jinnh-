@@ -25,11 +25,11 @@ if (Config.WORKTYPE == 'private') {
             return;
         }
 
-        if (Config.PLK == 'default') {
+        if (Config.OWNRN == 'default') {
             await message.client.sendMessage(message.jid,'Jimbrootan created by *Mikhaiel*' , MessageType.text);
         }
         else {
-            await message.client.sendMessage(message.jid,Config.PLK + '\n\n---------------------', MessageType.text);
+            await message.client.sendMessage(message.jid,Config.OWNRN + '\n\n---------------------', MessageType.text);
         }
     }));
 }
@@ -43,11 +43,11 @@ else if (Config.WORKTYPE == 'public') {
             return;
         }
 
-        if (Config.PLK == 'default') {
+        if (Config.OWNRN == 'default') {
             await message.client.sendMessage(message.jid,'Jimbrootan created by *Mikhaiel*' , MessageType.text);
         }
         else {
-            await message.client.sendMessage(message.jid,Config.PLK + '\n\n--------------------', MessageType.text);
+            await message.client.sendMessage(message.jid,Config.OWNRN + '\n\n--------------------', MessageType.text);
         }
     }));
 }
