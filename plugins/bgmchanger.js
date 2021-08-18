@@ -9,22 +9,22 @@ const heroku = new Heroku({
 });
 let baseURI = '/apps/' + config.HEROKU.APP_NAME;
 
- var plk_desc = ''
+ var jinn_desc = ''
  var BGM_ONE = ''
  var BGM_TWO = ''
  
   if (config.LANG == 'EN') {
     
-    plk_desc = 'change reply message BGM mode'
-    BGM_ONE = '𝐁𝐆𝐌 𝐭𝐲𝐩𝐞 𝐜𝐡𝗮𝐧𝐠𝐞𝐝 𝐭𝐨 𝟭𝘀𝘁 𝐦𝐨𝐝𝐞'
-    BGM_TWO = '𝐁𝐆𝐌 𝐭𝐲𝐩𝐞 𝐜𝐡𝗮𝐧𝐠𝐞𝐝 𝐭𝐨 𝟐𝐧𝐝 𝐦𝐨𝐝𝐞'
+    jinn_desc = 'change reply message BGM mode'
+    BGM_ONE = 'BGM 𝐜𝐡𝗮𝐧𝐠𝐞𝐝 𝐭𝐨 𝟭𝘀𝘁 𝐦𝐨𝐝𝐞'
+    BGM_TWO = 'BGM 𝐜𝐡𝗮𝐧𝐠𝐞𝐝 𝐭𝐨 𝟐𝐧𝐝 𝐦𝐨𝐝𝐞'
     }
 
     if (config.LANG == 'ML') {
       
-      plk_desc = 'മറുപടി bgm മോഡ് മാറ്റാൻ'
-      BGM_ONE = '𝐁𝐆𝐌 തരം ഒന്നാം മോഡിലേക്ക് മാറ്റി'
-      BGM_TWO = '𝐁𝐆𝐌 തരം രണ്ടാം മോഡിലേക്ക് മാറ്റി'
+      jinn_desc = 'മറുപടി bgm മോഡ് മാറ്റാൻ'
+      BGM_ONE = 'BGM തരം ഒന്നാം മോഡിലേക്ക് മാറ്റി'
+      BGM_TWO = 'BGM തരം രണ്ടാം മോഡിലേക്ക് മാറ്റി'
     }
 
  Asena.addCommand({pattern: 'bgm ?(.*)', fromMe: true, desc: plk_desc, usage: '.bgm one / two' }, (async (message, match) => {
