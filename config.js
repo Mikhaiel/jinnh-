@@ -48,7 +48,7 @@ module.exports = {
     DEMOTEMSG: process.env.DEMOTE_MESSAGE === undefined ? 'default' : process.env.DEMOTE_MESSAGE,
     BANMSG: process.env.BAN_MESSAGE === undefined ? 'default' : process.env.BAN_MESSAGE,
     AFKMSG: process.env.AFK_MESSAGE === undefined ? 'default' : process.env.AFK_MESSAGE,
-    TAGPLK: process.env.TAG_HEADER === undefined ? 'plk' : process.env.TAG_HEADER,
+    TAG: process.env.TAG_HEADER === undefined ? 'Hey Friends' : process.env.TAG_HEADER,
     THERI: process.env.THERI_LIST === undefined ? false : process.env.THERI_LIST,
     HANDLERS: process.env.HANDLERS === undefined ? '^[.!;]' : process.env.HANDLERS,
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
