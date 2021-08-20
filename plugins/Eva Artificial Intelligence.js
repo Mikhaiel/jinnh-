@@ -1,6 +1,6 @@
-/* Copyright (C) 2020 Yusuf Usta.
+/* Copyright (C) 2021 TOXIC-DEVIL.
 
-Special Thanks To 
+Special Thanks To @TOXIC-DEVIL
 
 */
 let WhatsAlexa = require('../events');
