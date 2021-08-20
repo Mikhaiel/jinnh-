@@ -1,3 +1,8 @@
+* Copyright (C) 2020 Yusuf Usta.
+
+Special Thanks To 
+
+*/
 let WhatsAlexa = require('../events');
 let ffmpeg = require('fluent-ffmpeg');
 let fs = require('fs');
