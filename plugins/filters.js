@@ -1,4 +1,3 @@
-
 /*
 Copyright (C) 2020 Mikhaiel
 */
@@ -59,7 +58,7 @@ const array = ['Onam','onam','Happy Onam','happy onam','name entha','Helo','King
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
-       await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/' + a + '.mp3'), MessageType.audio, { mimetype: Mimetype.mp3Audio,contextInfo: { forwardingScore: 10, isForwarded: true }, quoted: message.data, ptt: true})
+       await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/' + a + '.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio,contextInfo: { forwardingScore: 10, isForwarded: true }, quoted: message.data, ptt: true})
 }
 });
     }
@@ -128,7 +127,7 @@ const array = ['Onam','onam','Happy Onam','happy onam','name entha','Helo','King
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
-       await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/' + a + '.mp3'), MessageType.audio, { mimetype: Mimetype.mp3Audio,contextInfo: { forwardingScore: 10, isForwarded: true }, quoted: message.data, ptt: true})
+       await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/' + a + '.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio,contextInfo: { forwardingScore: 10, isForwarded: true }, quoted: message.data, ptt: true})
 }
 });
     }
@@ -160,7 +159,7 @@ const array = ['Onam','onam','Happy Onam','happy onam','Hi','Fek','Ariyo','Ayn',
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
-       await message.client.sendMessage(message.jid, fs.readFileSync('./upload/' + a + '.mp3'), MessageType.audio, { mimetype: Mimetype.mp3Audio,contextInfo: { forwardingScore: 10, isForwarded: true }, quoted: message.data, ptt: true})
+       await message.client.sendMessage(message.jid, fs.readFileSync('./upload/' + a + '.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio,contextInfo: { forwardingScore: 10, isForwarded: true }, quoted: message.data, ptt: true})
 }
 });
     }
@@ -205,4 +204,3 @@ filtreler.map(
 );
 }));
 }
-
