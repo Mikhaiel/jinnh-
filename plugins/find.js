@@ -6,8 +6,10 @@ const axios = require('axios');
 const FormData = require('form-data');
 const ffmpeg = require('fluent-ffmpeg');
 
-Asena.addCommand({pattern: 'find', fromMe: false, desc: 'Shazam plugin'}, (async (message, match) => {
-    if (message.reply_message === false) return await message.client.sendMessage(message.jid, 'replay to a audio!', MessageType.text);
+const FIND_DESC = "Finds the Song"
+
+Asena.addCommand({pattern: 'search', fromMe: false, desc: FIND_DESC }, (async (message, match) => {
+    if (message.reply_message === false) return await message.client.sendMessage(message.jid, '𝚈𝚘𝚞 𝚖𝚞𝚜𝚝 𝚛𝚎𝚙𝚕𝚢 𝚝𝚘 𝚊𝚗 𝚖𝚙𝟹 !!', MessageType.text);
     var filePath = await message.client.downloadAndSaveMediaMessage({
         key: {
             remoteJid: message.reply_message.jid,
@@ -30,7 +32,7 @@ Asena.addCommand({pattern: 'find', fromMe: false, desc: 'Shazam plugin'}, (async
             if (res === 'success') {
                 await message.client.sendMessage(message.jid, `Title: ${res.title}\nArtist: ${res.artist}`, MessageType.text);
             } else {
-                await message.client.sendMessage(message.jid, 'No results found', MessageType.text);
+                await message.client.sendMessage(message.jid, '𝙽𝙾 𝚁𝙴𝚂𝚄𝙻𝚃 𝙵𝙾𝚄𝙽𝙳 ', MessageType.text);
             }
         }).catch((error) =>  {
             console.log(error);
