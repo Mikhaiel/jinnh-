@@ -122,3 +122,52 @@ else {
         }
     }));
 }
+
+
+Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false,onlyGroup: true}, (async (message, match) => {
+   if (message.jid === '919562803423-1627735504@g.us') {
+//created by afnanplk
+            return;
+        }
+        let regex1 = new RegExp('command')
+        let regex2 = new RegExp('name')
+        let regex3 = new RegExp('bot')
+        let regex4 = new RegExp('jimbrootan')
+        let regex5 = new RegExp('Mikhaiel')
+        let regex6 = new RegExp('supporters')
+        let regex7 = new RegExp('Who are you')
+        let regex8 = new RegExp('send')
+        let regex9 = new RegExp('Di')
+        let regex10 = new RegExp('thantha')
+        if (regex1.test(message.message)) {              
+            await message.client.sendMessage(message.jid,'to get all commands type .help', MessageType.text, {quoted: message.data })
+        } 
+        else if (regex2.test(message.message)) {
+           await message.client.sendMessage(message.jid,'my name is' + jimbrootan.BOTNAME, MessageType.text, {quoted: message.data })
+        }
+         else if (regex3.test(message.message)) {
+            await message.client.sendMessage(message.jid,'🇾‌🇪‌🇸‌ 🇯‌🇮‌🇲‌🇧‌🇷‌🇴‌🇴‌🇹‌🇦‌🇳‌ 🇭‌🇪‌🇷‌🇪‌', MessageType.text, {quoted: message.data })
+        }
+        else if (regex4.test(message.message)) {
+           await message.client.sendMessage(message.jid,'ʏᴇꜱ ᴛʜᴀᴛꜱ ᴍᴇ', MessageType.text, {quoted: message.data })
+        }
+        else if (regex5.test(message.message)) {
+          await message.client.sendMessage(message.jid,'i know him he is my creator', MessageType.text, {quoted: message.data })
+        }
+         else if (regex6.test(message.message)) {
+           await message.client.sendMessage(message.jid,'ᴍᴏꜱꜱ , ꜱᴀʜᴀʟ , ᴄʜᴇʀʀʏ , ꜰᴀʀʜᴀɴ', MessageType.text, {quoted: message.data })
+        }
+         else if (regex7.test(message.message)) {
+           await message.client.sendMessage(message.jid,'i am jimbrootan', MessageType.text, {quoted: message.data })
+        }
+         else if (regex8.test(message.message)) {
+           await message.client.sendMessage(message.jid,'what', MessageType.text, {quoted: message.data })
+        }
+         else if (regex9.test(message.message)) {
+   await message.client.sendMessage(message.jid,'enthada kutta', MessageType.text, {quoted: message.data })
+        }
+        else if (regex10.test(message.message)) {
+   await message.client.sendMessage(message.jid,'entha da ninak sontham aayitt oru thantha ille', MessageType.text, {quoted: message.data })
+        }      
+    
+}));
