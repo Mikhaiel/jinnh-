@@ -49,7 +49,7 @@
         "AUTO_BİO": {
             "description": "Set true for auto date, time in biography.",
             "required": true,
-            "value": "true"
+            "value": "false"
         },
         "OWNER_NAME": {
             "description": "reply for .owner ! give your details, Use => default, to change back.",
