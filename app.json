@@ -42,7 +42,7 @@
             "value": "false"
         },
         "THERI_LIST": {
-            "description": "bad word ban...  add the bad words you dont allow in your grp (THERI_KICK must be true to run this feature , and dont change the 1st word ) example: plk-dqz,f**k,d**k",
+            "description": "bad word ban...  add the bad words you dont allow in your grp (THERI_KICK must be true to run this feature) example: plk-dqz,f**k,d**k",
             "required": true,
             "value": "false"
         },
