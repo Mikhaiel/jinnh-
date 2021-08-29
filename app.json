@@ -61,10 +61,10 @@
             "required": true,
             "value": "^[.!;]"
         },
-        "FULL_EVA": {
-            "description": "Turn your account into a chatbot!",
+        "JINN_AI": {
+            "description": "turn on chat back auto reply pinky (use true to on and fale to off)",
             "required": true,
-            "value": "false"
+            "value": "true"
         },
         "ALL_LINK_BAN": {
             "description": "Link Blocking System.- this one blocks all link",
