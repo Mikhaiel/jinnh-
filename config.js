@@ -1,6 +1,7 @@
-/* Copyright (C) 2020 Yusuf Usta.
+/* 
+Copyright (C) 2020 Yusuf Usta.
+
 re edited by afnan-plk  
-PINKY V2 
 */
 
 const { Sequelize } = require('sequelize');
