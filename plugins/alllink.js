@@ -125,13 +125,23 @@ var plk9 = ''
         plk7 = 'i am .... aah i dont know who i am \n please tell me if you know who i am 🥺🥺'
         plk8 = 'somebody help me this person is talking bad things \n i am a good girl...\n\n trin..trin... *hello police station*'
         plk9 = 'https://github.com/Mikhaiel/Jinnh'
+        plk10 = '𝐠𝐨𝐨𝐝 𝐦𝐨𝐫𝐧𝐢𝐧𝐠'
+        plk11 = '𝓰𝓸𝓸𝓭 𝓶𝓸𝓻𝓷𝓲𝓷𝓰'
+        plk12 = '𝙶𝚘𝚘𝚍 𝚖𝚘𝚛𝚗𝚒𝚗𝚐'
+        plk13 = 'ɠσσԃ ɱσɾɳιɳɠ'
+        plk14 = '𝚐𝚘𝚘𝚍 𝚗𝚒𝚐𝚑𝚝'
+        plk15 = '𝘨𝘰𝘰𝘥 𝘯𝘪𝘨𝘩𝘵'
+        plk16 = '𝓰𝓸𝓸𝓭 𝓷𝓲𝓰𝓱𝓽'
+        plk17 = '𝐠𝐨𝐨𝐝 𝐧𝐢𝐠𝐡𝐭'
+            
+        
     }  
 
 
 Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (message, match) => {
    if (AI_var == 'true' && message.jid !== '919562803423-1627735504@g.us') {
     
-        let regex1 = new RegExp('command')
+        let regex1 = new RegExp('commands')
         let regex2 = new RegExp('name')
         let regex3 = new RegExp('bot')
         let regex4 = new RegExp('Jimbrootan')
@@ -141,6 +151,14 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
         let regex8 = new RegExp('nude')
         let regex9 = new RegExp('Git')
         let regex10 = new RegExp(Jimbrootan.OA_NAME)
+        let regex10 = new RegExp('GOOD MORNING')
+        let regex11= new RegExp('Good Morning')
+        let regex12 = new RegExp('gd mrng')
+        let regex13 = new RegExp('Mrng')
+        let regex14 = new RegExp('Good Night')
+        let regex15 = new RegExp('good night')
+        let regex16 = new RegExp('ni8')
+        let regex17 = new RegExp('nyt')
         if (regex1.test(message.message)) {              
             await message.client.sendMessage(message.jid,plk1, MessageType.text, {quoted: message.data })
         } 
@@ -170,6 +188,30 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
         }
         else if (regex10.test(message.message)) {
   await message.client.sendMessage(message.jid,Jimbrootan.OA_REPLY, MessageType.text, {quoted: message.data })
-        }      
+        }
+       else if (regex2.test(message.message)) {
+           await message.client.sendMessage(message.jid,plk10, MessageType.text, {quoted: message.data })
+        }
+       else if (regex2.test(message.message)) {
+           await message.client.sendMessage(message.jid,plk11, MessageType.text, {quoted: message.data })
+        }
+       else if (regex2.test(message.message)) {
+           await message.client.sendMessage(message.jid,plk12, MessageType.text, {quoted: message.data })
+        }
+       else if (regex2.test(message.message)) {
+           await message.client.sendMessage(message.jid,plk13, MessageType.text, {quoted: message.data })
+        }
+       else if (regex2.test(message.message)) {
+           await message.client.sendMessage(message.jid,plk14, MessageType.text, {quoted: message.data })
+        }
+       else if (regex2.test(message.message)) {
+           await message.client.sendMessage(message.jid,plk15, MessageType.text, {quoted: message.data })
+        }
+       else if (regex2.test(message.message)) {
+           await message.client.sendMessage(message.jid,plk16, MessageType.text, {quoted: message.data })
+        }
+       else if (regex2.test(message.message)) {
+           await message.client.sendMessage(message.jid,plk17, MessageType.text, {quoted: message.data })
+        }
    }
 }));
