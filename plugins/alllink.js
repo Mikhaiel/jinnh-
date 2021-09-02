@@ -157,14 +157,14 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
         let regex8 = new RegExp('nude')
         let regex9 = new RegExp('Git')
         let regex10 = new RegExp(Jimbrootan.OA_NAME)
-        let regex10 = new RegExp('GOOD MORNING')
-        let regex11= new RegExp('Good Morning')
-        let regex12 = new RegExp('gd mrng')
-        let regex13 = new RegExp('Mrng')
-        let regex14 = new RegExp('Good Night')
-        let regex15 = new RegExp('good night')
-        let regex16 = new RegExp('ni8')
-        let regex17 = new RegExp('nyt')
+        let regex11 = new RegExp('GOOD MORNING')
+        let regex12= new RegExp('Good Morning')
+        let regex13 = new RegExp('gd mrng')
+        let regex14 = new RegExp('Mrng')
+        let regex15 = new RegExp('Good Night')
+        let regex16 = new RegExp('good night')
+        let regex17 = new RegExp('ni8')
+        let regex18 = new RegExp('nyt')
         if (regex1.test(message.message)) {              
             await message.client.sendMessage(message.jid,plk1, MessageType.text, {quoted: message.data })
         } 
@@ -195,28 +195,28 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
         else if (regex10.test(message.message)) {
   await message.client.sendMessage(message.jid,Jimbrootan.OA_REPLY, MessageType.text, {quoted: message.data })
         }
-       else if (regex2.test(message.message)) {
+       else if (regex11.test(message.message)) {
            await message.client.sendMessage(message.jid,plk10, MessageType.text, {quoted: message.data })
         }
-       else if (regex2.test(message.message)) {
+       else if (regex12.test(message.message)) {
            await message.client.sendMessage(message.jid,plk11, MessageType.text, {quoted: message.data })
         }
-       else if (regex2.test(message.message)) {
+       else if (regex13.test(message.message)) {
            await message.client.sendMessage(message.jid,plk12, MessageType.text, {quoted: message.data })
         }
-       else if (regex2.test(message.message)) {
+       else if (regex14.test(message.message)) {
            await message.client.sendMessage(message.jid,plk13, MessageType.text, {quoted: message.data })
         }
-       else if (regex2.test(message.message)) {
+       else if (regex15.test(message.message)) {
            await message.client.sendMessage(message.jid,plk14, MessageType.text, {quoted: message.data })
         }
-       else if (regex2.test(message.message)) {
+       else if (regex16.test(message.message)) {
            await message.client.sendMessage(message.jid,plk15, MessageType.text, {quoted: message.data })
         }
-       else if (regex2.test(message.message)) {
+       else if (regex17.test(message.message)) {
            await message.client.sendMessage(message.jid,plk16, MessageType.text, {quoted: message.data })
         }
-       else if (regex2.test(message.message)) {
+       else if (regex18.test(message.message)) {
            await message.client.sendMessage(message.jid,plk17, MessageType.text, {quoted: message.data })
         }
    }
