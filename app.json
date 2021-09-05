@@ -8,8 +8,8 @@
     "success_url": "under maintenance",
     "stack": "container",
     "env": {
-        "ASENA_SESSION": {
-            "description": "Qr.Js Type here yours Asena Session.",
+        "JIMBROOTAN_SESSION": {
+            "description": "Qr.Js Type here yours Jimbrootan Session.",
             "required": true
         },
         "SUDO": {
