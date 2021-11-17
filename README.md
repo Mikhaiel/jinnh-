@@ -51,10 +51,14 @@ Click WA logo for Support 👇
      </div>
 <br>
 <br >
-If Repl.it not working Try Termux for Qr scanning.Just Copy the Link Below in Termux
-```
-bash <(curl -L https://t.ly/tHxh)
-``` 
+
+## Jimbroottan Version 3 Qr ⬇️
+
+<div align="center">
+
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@Mikhaiel/JIMBROOTAN)
+
+</div>
 
 ## F.A.Q
 Answer a few frequently asked questions;
