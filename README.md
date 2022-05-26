@@ -31,7 +31,7 @@
 
 ## 📢 Guide
   
-Click WA logo for Support 👇
+If You Face Any Problem Contact Me on WhatsApp  👇
     <br>
 <br>
   [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/GGJSARnSwsNDNXlktQYtWX)
