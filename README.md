@@ -34,7 +34,7 @@
 If You Face Any Problem Contact Me on WhatsApp  👇
     <br>
 <br>
-  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/GGJSARnSwsNDNXlktQYtWX)
+  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://whatsapp.me/+919544846609)
   <div align="center">
 
   [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Mikhaiel&repo=Jinnh&theme=nightowl)](https://github.com/Mikhaiel/Jinnh)
